@@ -14,7 +14,7 @@ Hellooo! ^-^
 3. Tres
 Horizontal
 ---
-'Inline Code' huhhh
-'''
+`Inline Code` huhhh
+```
 code block
-'''
+```
