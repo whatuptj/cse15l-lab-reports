@@ -20,3 +20,6 @@ Now in the terminal, you can input some commands. Here are some you can try:
 - ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
 - cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 - cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+When you are finished, you can exit the server by using the hotkey Ctrl+D or typing "exit" into the terminal.
+  
+Congratulations! You have just logged into and used the UCSD remote server!
