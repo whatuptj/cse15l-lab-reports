@@ -3,7 +3,7 @@ Hello! So today (4/6/23) I took my first lab for CSE 15L. It was quite a nice la
 # Setting Up Your CSE 15L Account
 To log into the remote server for 15l, you first need to reset your password using you account starting with `cs15lsp23` followed by your 2 unique characters. You will need to log in with your UCSD single sign on at [this webpage](https://sdacs.ucsd.edu/~icc/index.php). You should then be able to click on a box with your `cs15lsp23xx` account. After clicking that, you will see a prompt to set your password shown here: ![Image](Prompt.png)
 
-MAKE SURE TO INPUT YOUR "cs15lsp23xx" ACCOUNT OR ELSE YOU WILL CHANGE YOUR SINGLE SIGN ON PASSWORD LIKE I DID :(. 
+MAKE SURE TO INPUT YOUR `cs15lsp23xx` ACCOUNT OR ELSE YOU WILL CHANGE YOUR SINGLE SIGN ON PASSWORD LIKE I DID :(. 
 
 # Installing Visual Studio Code
 After successfully resetting/creating your password for your CSE 15L account, you will need to install Visual Studio Code, or VSCode for short. VSCode is the program we will be using to access the remote UCSD server. You can find the download and instructions to install VSCode at [this link](https://code.visualstudio.com). After installing VSCode, you may need to install the program [git](https://gitforwindows.org) if you are on a Windows system. Since I am using MacOS, I skipped this step. For a more detailed tutorial you can follow [this link](https://ucsd-cse15l-s23.github.io/week/week1/#due-dates--links) and follow the steps listed under "Part 4 - Remotely Connecting". After installing and opening VSCode you should see something that looks like this: ![Image](VSCode.png) 
