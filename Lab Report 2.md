@@ -9,4 +9,16 @@
 2nd `/add-message`:
 ![Image](https://github.com/whatuptj/cse15l-lab-reports/blob/main/okay.png)
 - For this request, since the path does equal "/add-message" and the query isn't empty, "okay it works now" is appended to `searchQuery`
-
+```
+@Test
+public void testReverseInPlace(){
+  //test that passes:
+  int[] input1 = {3};
+  ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{3}, input1);
+  
+  //test that fails:
+  int[] input2 = {1, 2, 3}
+  ArrayExamples.reverseInPlace(input2);
+  assertArrayEquals(new int[]{3, 2, 1}, input2);
+```
