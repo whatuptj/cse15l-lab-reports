@@ -10,15 +10,40 @@
 ![Image](https://github.com/whatuptj/cse15l-lab-reports/blob/main/okay.png)
 - For this request, since the path does equal "/add-message" and the query isn't empty, "okay it works now" is appended to `searchQuery`
 ```
-@Test
-public void testReverseInPlace(){
-  //test that passes:
-  int[] input1 = {3};
-  ArrayExamples.reverseInPlace(input1);
-  assertArrayEquals(new int[]{3}, input1);
+  @Test
+  public void testReverseInPlace(){
+    //test that passes:
+    int[] input1 = {3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3}, input1);
   
-  //test that fails:
-  int[] input2 = {1, 2, 3}
-  ArrayExamples.reverseInPlace(input2);
-  assertArrayEquals(new int[]{3, 2, 1}, input2);
+    //test that fails:
+    int[] input2 = {1, 2, 3}
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3, 2, 1}, input2);
+  }
 ```
+Symptom:
+![Image](https://github.com/whatuptj/cse15l-lab-reports/blob/main/fail.png)
+Before(bug):
+```
+  static void reverseInPlace(int[] arr){
+    for(int i = 0, i < arr.length; i += 1){
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+After:
+```
+  static void reverseInPlace(int[] arr){
+    int temp = 0;
+    for(int i = 0, i < arr.length/2; i += 1){
+      temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+```
+When the bug was present in the code, the for loop was iterating through every item in the array instead of `arr.length / 2` and the array was not being updated. In the new for loop, the item at the current index gets stored in `temp` and at the end replaces it "mirror" in the array.
+
+In the week 2 lab, I found it very interesting that I am easily able to create my own web servers. I also found it interesting that I am able to run those servers off of the UCSD remote servers.
