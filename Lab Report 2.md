@@ -23,6 +23,7 @@
     assertArrayEquals(new int[]{3, 2, 1}, input2);
   }
 ```
+
 An input of `{3}` does not provide an error when running the test while the bug is still in the code.
 
 An input of `{1, 2, 3}` provides an error when running the test while the bug is still in the code.
