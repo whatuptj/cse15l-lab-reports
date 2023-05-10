@@ -24,12 +24,13 @@
   }
 ```
 
+Symptom:
+![Image](fail.png)
+
 An input of `{3}` does not provide an error when running the test while the bug is still in the code.
 
 An input of `{1, 2, 3}` provides an error when running the test while the bug is still in the code.
 
-Symptom:
-![Image](fail.png)
 Before(bug):
 ```
   static void reverseInPlace(int[] arr){
