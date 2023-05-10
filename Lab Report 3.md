@@ -20,7 +20,8 @@ Using `grep -e "hypoxia" rr74.txt`
 
 Will return:
 
-`Severe sustained hypoxia causes pulmonary hypertension
+```
+Severe sustained hypoxia causes pulmonary hypertension
         following severe hypoxia has been reported in rats [ 4, 13,
         the murine lung following hypoxia, with previous reports [
         upregulated following hypoxia and that this may account for
@@ -63,7 +64,8 @@ Will return:
         lung following hypoxia in mice is presently unknown.
         upregulation in the murine lung with severe hypoxia-induced
         hypoxia may lead to more severe pulmonary hypertension than
-        that observed in mature mice exposed to hypoxia, and this`
+        that observed in mature mice exposed to hypoxia, and this
+```
        
 The `-e` command line option for `grep` takes in a pattern to search for in a .txt file. In the first example, only one line contained the word "Conclusion", but in the second example, there were many lines that contained the pattern "hypoxia".
 
@@ -91,11 +93,13 @@ Using `grep -f patterns2.txt rr74.txt`
 
 Will return:
 
-`quantitative one-tube reverse-transcription PCR (Applied
+```
+quantitative one-tube reverse-transcription PCR (Applied
           quantitative reverse-transcription PCR, was increased
           confirmed using quantitative image analysis (data not
         Conclusion
-        Abbreviations`
+        Abbreviations
+```
         
 The `-f` command line option for `grep` takes in a file with lines to search for in another file. It is similar to `-e` but instead can take just a file name rather than many `-e` parameters to search for in a file.
 
@@ -133,7 +137,7 @@ Using `grep -v "e" rr74.txt`
 
 Will return:
 
-`
+```
 
 
 
@@ -197,7 +201,7 @@ Will return:
 
 
 
-`
+```
 
 **Example 2:**
 
