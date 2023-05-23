@@ -31,6 +31,20 @@ The second set of keystrokes will write out `java -cp .:lib/hamcrestcore-1.3.jar
 * `<x>, <i>, <2>, <esc>`
 * `<shift> + ;, <w>, <q>, <enter>`
 
+The first set of keystrokes will write out `vim ListExamples.java` which allows you to open ListExamples.java in vim
+
+The repeated `<j>` will move the cursor down
+  
+The repeated `<l>` will move the cursor right
+  
+`<x>` will delete "1", `<i>` will enter insert mode, `<2>` will type 2, `<esc>` returns you to normal mode
+
 # Step 8: Run the tests, demonstrating that they now succeed
+* `<up>, <up>, <up>, <enter>`
+* `<up>, <up>, <up>, <enter>`
+
+Using `<up>` on the keyboard writes previously ran commands
+
+The first line should put the compile command in your line, and after hitting enter, will be the most recently used command, explaining why you will do the same amount of `<up>` commands.
 
 # Step 9: Commit and push the resulting change to your Github account
