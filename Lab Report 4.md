@@ -56,3 +56,4 @@ The first line should put the compile command in your line, and after hitting en
 ![image](image1.png)
 
 # Step 9: Commit and push the resulting change to your Github account
+im confused on this step :/ but will take the next week to figure it out
