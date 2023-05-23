@@ -13,6 +13,8 @@ The second set will probably consist of using `<shift>` since passwords require 
 Keystrokes:
 * `git, <space>, clone, <space>, https, <shift> + ;, //github.com/whatuptj/lab7, <enter>`
 
+![image](image2.png)
+
 This set of keystrokes will write out `git clone https://github.com/whatuptj/lab7` which is the git clone command to clone a repository into your current directory
 
 # Step 6: Run the tests, demonstrating that they fail
@@ -23,6 +25,8 @@ Keystrokes:
 The first set of keystrokes will write out `javac -cp .:lib/hamcrestcore-1.3.jar:lib/juinit-4.13.2.jar *.java` which will compile .java files
 
 The second set of keystrokes will write out `java -cp .:lib/hamcrestcore-1.3.jar:lib/juinit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which runs the program for ListExamplesTests
+
+![image](image3.png)
 
 # Step 7: Edit the code file to fix the failing test
 * `vim, <space>, <shift> + l, ist, <shift> + e, xamples.java, <enter>`
@@ -39,6 +43,8 @@ The repeated `<l>` will move the cursor right
   
 `<x>` will delete "1", `<i>` will enter insert mode, `<2>` will type 2, `<esc>` returns you to normal mode
 
+![image](image4.png)
+
 # Step 8: Run the tests, demonstrating that they now succeed
 * `<up>, <up>, <up>, <enter>`
 * `<up>, <up>, <up>, <enter>`
@@ -46,5 +52,7 @@ The repeated `<l>` will move the cursor right
 Using `<up>` on the keyboard writes previously ran commands
 
 The first line should put the compile command in your line, and after hitting enter, will be the most recently used command, explaining why you will do the same amount of `<up>` commands.
+
+![image](image5.png)
 
 # Step 9: Commit and push the resulting change to your Github account
