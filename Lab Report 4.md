@@ -7,13 +7,13 @@ The first set of keystrokes will write out `cs15lsp23hm@ieng6.ucsd.edu`
 
 The second set will probably consist of using `<shift>` since passwords require uppercase letters and symbols
 
-![image](image1.png)
+![image](image5.png)
 
 # Step 5: Clone your fork of the repository from your Github account
 Keystrokes:
 * `git, <space>, clone, <space>, https, <shift> + ;, //github.com/whatuptj/lab7, <enter>`
 
-![image](image2.png)
+![image](image4.png)
 
 This set of keystrokes will write out `git clone https://github.com/whatuptj/lab7` which is the git clone command to clone a repository into your current directory
 
@@ -43,7 +43,7 @@ The repeated `<l>` will move the cursor right
   
 `<x>` will delete "1", `<i>` will enter insert mode, `<2>` will type 2, `<esc>` returns you to normal mode
 
-![image](image4.png)
+![image](image2.png)
 
 # Step 8: Run the tests, demonstrating that they now succeed
 * `<up>, <up>, <up>, <enter>`
@@ -53,6 +53,6 @@ Using `<up>` on the keyboard writes previously ran commands
 
 The first line should put the compile command in your line, and after hitting enter, will be the most recently used command, explaining why you will do the same amount of `<up>` commands.
 
-![image](image5.png)
+![image](image1.png)
 
 # Step 9: Commit and push the resulting change to your Github account
