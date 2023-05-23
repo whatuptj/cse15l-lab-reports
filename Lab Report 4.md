@@ -7,7 +7,7 @@ The first set of keystrokes will write out `cs15lsp23hm@ieng6.ucsd.edu`
 
 The second set will probably consist of using `<shift>` since passwords require uppercase letters and symbols
 
-
+![image](image1.png)
 
 # Step 5: Clone your fork of the repository from your Github account
 Keystrokes:
