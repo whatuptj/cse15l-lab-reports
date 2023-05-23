@@ -13,9 +13,9 @@ The second set will probably consist of using `<shift>` since passwords require 
 Keystrokes:
 * `git, <space>, clone, <space>, https, <shift> + ;, //github.com/whatuptj/lab7, <enter>`
 
-![image](image4.png)
-
 This set of keystrokes will write out `git clone https://github.com/whatuptj/lab7` which is the git clone command to clone a repository into your current directory
+
+![image](image4.png)
 
 # Step 6: Run the tests, demonstrating that they fail
 Keystrokes:
