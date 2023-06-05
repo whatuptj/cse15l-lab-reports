@@ -21,7 +21,7 @@ Detail the failure-inducing input and context. That might mean any or all of the
 
 ![image](image1.png)
 
-# Response
+## Response
 Hi there! So according to the screenshots you had included in your post, it seems like they way you are trying to iterate through the list is incorrect since you are recieving an OutOfBounds error. If you look at your for loop, you may be able to see that you are starting at the length of the list - 1. So say your list has a length of 5, 5 - 1 = 4, counting from index 0, 1, 2, 3, 4 lands you at the last item in the list. In the last statement of your for loop, you are trying to increase the value of i, when you should really be decreasing it to iterate through all of the items in the list starting from the last item to the first. 
 
 ![image](image2.png)
@@ -35,3 +35,7 @@ This change should fix the OutOfBounds error and your expected output should be 
 ![image](image6.png)
 
 Hope this helps and let us know if you have any other questions!
+
+# Part 2: Reflection
+
+For the second half of the quarter I actually found vim to be pretty interesting. It's kinda cool everything can pretty much be done remotely and all from a terminal. Through collaboration, my lab partners and friends all shared interesting ideas and helped eachother approach problems.
