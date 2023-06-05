@@ -15,7 +15,9 @@ Keystrokes:
 
 This set of keystrokes will write out `git clone https://github.com/whatuptj/lab7` which is the git clone command to clone a repository into your current directory
 
-![image](image4.png)
+Using a copy and paste command for your github link will also work and may be quicker
+
+![image](image3.png)
 
 # Step 6: Run the tests, demonstrating that they fail
 Keystrokes:
@@ -26,9 +28,10 @@ The first set of keystrokes will write out `javac -cp .:lib/hamcrestcore-1.3.jar
 
 The second set of keystrokes will write out `java -cp .:lib/hamcrestcore-1.3.jar:lib/juinit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which runs the program for ListExamplesTests
 
-![image](image3.png)
+![image](image1.png)
 
 # Step 7: Edit the code file to fix the failing test
+Keystrokes:
 * `vim, <space>, <shift> + l, ist, <shift> + e, xamples.java, <enter>`
 * `<j>` x43
 * `<l>` x11
@@ -46,6 +49,7 @@ The repeated `<l>` will move the cursor right
 ![image](image2.png)
 
 # Step 8: Run the tests, demonstrating that they now succeed
+Keystrokes:
 * `<up>, <up>, <up>, <enter>`
 * `<up>, <up>, <up>, <enter>`
 
@@ -53,7 +57,15 @@ Using `<up>` on the keyboard writes previously ran commands
 
 The first line should put the compile command in your line, and after hitting enter, will be the most recently used command, explaining why you will do the same amount of `<up>` commands.
 
-![image](image1.png)
+![image](image4.png)
 
 # Step 9: Commit and push the resulting change to your Github account
-im confused on this step :/ but will take the next week to figure it out
+Keystrokes:
+
+* `git, <space>, add, <space>, <shift> + l, ist, <shift> + e, xamples.java, <enter>` (adds file to our commit)
+* `git, <space>, commit, <space>, -m, <shift> + ', horray, <shift> + ', <enter>` (commits file)
+* `git, <space>, remote, <space>, set-url, <space>, origin, git, <shift> + 2, github,com, <shift> + ;, whatuptj/lab7.git, <enter>` (sets the location for our push)
+* `git, <space>, remote, <space>, -v, <enter>` (check to see if locations are correct)
+* `git, <space>, push, <space>, -u, <space>, origin, <space>, main, <enter>` (pushes changes)
+
+![image](commitnpush.png)
